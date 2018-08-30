@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-a:hover{
-  color: #ff0000;
-}
 
 body {
   background-color: #343334;
@@ -15,13 +12,15 @@ body {
 .container {
   margin: auto;
   width: 420px;
+  padding: 20px 0 10px 15px;
 }
 
 nav {
   background-color: #010001;
   margin: auto;
   position: fixed;
-  width: 420px;
+  width: 405px;
+  padding: 20px 0 10px 15px;
 }
 
 .restaurant-list {
@@ -34,7 +33,7 @@ nav {
 .location {
   background-color:#e5e5e5;
   margin: auto;
-  padding: 15px 0 15px 15px;
+  padding: 20px 0 10px 15px;
   border-bottom: 1px solid #010001;
   display: inline-block;
   width: 405px;
@@ -49,10 +48,14 @@ nav {
   margin: 0;
 }
 
+.content {
+display: inline-block;
+width: 90%;
+}
+
 .arrow{
   text-align: right;
   padding-right: 15px;
   float: right;
   display: inline-block;
-  width: 405px
 }
